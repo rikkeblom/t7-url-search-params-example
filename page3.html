@@ -11,7 +11,12 @@
     <p class="close">Cool, then you'll be home soon</p>
     <p class="far">Sorry about that, have a nice long trip home</p>
 
-    <p>ADD YOUR QUESTION HERE, AND PICK IT UP ON PAGE 4</p>
+    <p>Do you take the bus or bike?</p>
+    <ul>
+      <li><a href="page4.html?transport=bus">Bus</a></li>
+      <li><a href="page4.html?transport=bike">Bike</a></li>
+    </ul>
+
     <script>
       const urlParams = new URLSearchParams(window.location.search);
       const close = urlParams.get("close");
